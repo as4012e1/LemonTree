@@ -1,0 +1,37 @@
+<script type="text/javascript">
+function startTime()
+{
+var today=new Date()
+var y=today.getFullYear()+"年"+today.getMonth()+"月"+today.getDay()+"日"+""+DateDemo()
+var h=today.getHours()
+var m=today.getMinutes()
+var s=today.getSeconds()
+// add a zero in front of numbers<10
+m=checkTime(m)
+s=checkTime(s)
+document.getElementById('txt').innerHTML=y+"<br>"+h+":"+m+":"+s
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+
+function DateDemo(){
+   var d, day, x;
+   var x = new Array("星期日", "星期一", "星期二");
+   var x = x.concat("星期三","星期四", "星期五");
+   var x = x.concat("星期六");
+   d = new Date();
+   day = d.getDay();
+   return( x[day]);
+}
+
+</script>
+
+<body onload="startTime()">
+<div id="txt"></div>
+</body>
