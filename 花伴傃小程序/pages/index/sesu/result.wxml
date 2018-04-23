@@ -1,0 +1,9 @@
+<view class='bg-pic'><image src='../images/2.jpg' mode="widthFix"></image></view>
+<view class="logo-pic">
+<view  class='df'>{{result}}</view>
+</view>
+<view class="t1">{{title1}}</view>
+ <view class="pgz">长安识别关注斑究社</view><view class='gz'>加入超20万用户的祛斑美白社群</view>
+<view class='ewm-pic'><image src='../images/ewm.jpg' style='width:294rpx;height:294rpx'></image></view>
+<view class='tText'><span style="font-weight:bold">【斑究社】</span>一个色斑人群专享的美肤互助平台。祛斑美白专业知识分 享； 特邀美容师每日在线志愿服务；斑友在线互动；一起来讨论吧！ </view>
+<button  class="share" open-type="share">分享</button> 

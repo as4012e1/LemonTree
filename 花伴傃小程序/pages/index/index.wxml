@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='page1'>
+      <view class='bg-pic'><image style="width: {{imagewidth}}px; height: {{imageheight}}px;"  src="{{imagefirstsrc}}" bindload="imageLoad"></image> </view>
+      <button class='btn' bindtap='changepage'>开始测试</button>
+    </view>
+</view>

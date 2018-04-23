@@ -1,0 +1,38 @@
+/**index.wxss**/
+.container {
+   width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+image{
+  display: inline;
+}
+page{height:100%}
+.page1{
+  width: 100%;
+  height:100%;
+   position:absolute;
+}
+.bg-pic{
+  width: 100%;
+  height:100%;
+  position: absolute;
+}
+.bg-pic image{
+  width: 100%;
+  height:100%;
+}
+.btn{
+  position: absolute;
+  width: 80%;
+  bottom: 40rpx;
+  background: #ee697e;
+  color:#fff;
+  margin-left:10%;
+
+}

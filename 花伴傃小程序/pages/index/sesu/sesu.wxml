@@ -1,0 +1,8 @@
+ <view class="container">   
+    <view class='page2'>
+        <view class='bg-pic'><image src='../images/2.jpg' mode="widthFix"></image> </view>
+        <view class='bt'>{{array.title}}</view>
+        <view class='ques'><view class='xx' wx:for="{{array.content}}" data-fs='{{item.fraction}}' bindtap="clickBt"> {{item.message}}</view></view>
+        <view class='num'>{{numbers}}</view>
+    </view>
+  </view>

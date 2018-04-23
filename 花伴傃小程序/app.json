@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/sesu/sesu",
+    "pages/index/sesu/result",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffdde3",
+    "navigationBarTitleText": "花伴傃 皮肤小测试",
+    "navigationBarTextStyle": "black"
+  }
+}
